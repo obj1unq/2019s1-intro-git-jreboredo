@@ -43,7 +43,7 @@ object munieco {
 object placa {
 	var _color
 	var _peso 
-	
+	/*Le agrego la variable al setter de color. */
 	method color() { return _color }
 	method setColor(color) { _color = color }
 	method material() { return cobre }
